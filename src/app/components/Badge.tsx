@@ -4,7 +4,7 @@ import { BadgeInterface } from "./types";
 export const Badge = ({ text }: BadgeInterface) => {
   return (
     <div>
-      <small className="inline-block bg-white rounded-sm px-10 py-2 text-sm font-semibold text-red-300 border-2 border-blue-800">
+      <small className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
         {text}
       </small>
     </div>

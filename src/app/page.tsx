@@ -6,17 +6,20 @@ import { Card } from "./components/Card";
 export default function Home() {
   return (
     <>
-      <Badge text="Nuevo"></Badge>
-      <Button text="Boton" href="www.google.com" type="sexo"></Button>
-      {/* <Card
+      <Card
         body="hi"
-        title="card"
+        image="https://v1.tailwindcss.com/img/card-top.jpg"
+        title="The Coldest Sunset"
+        subtitle="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        badge={{
+          text: "#Nuevo",
+        }}
         btn={{
           text: "boton1",
           type: "primario",
           href: "www.google.com",
         }}
-      ></Card> */}
+      ></Card>
     </>
   );
 }
